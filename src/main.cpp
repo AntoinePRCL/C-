@@ -1,9 +1,11 @@
 #include <iostream>
 //#include <stdlib.h>
 #include "lib.h"
+#include "personne.h"
 
 int main() {
-calcul a;
-std::cout<<a.addition(2, 3)<<std::endl;
+Personne eleve;
+eleve.saluer();
+eleve.partir();
 return 0;
 }
